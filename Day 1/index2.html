@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        border: 5px solid black;
+        height: 100px;
+    }
+    div:first-child{
+        width: 60%;
+        float: left;
+    }
+    div:nth-child(3),
+    div:nth-child(4),
+    div:nth-child(5),
+    div:nth-child(6)
+    {
+        width: calc(100% /4);
+        float: left;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+    <div>Block A</div>
+    <div>BLock B</div>
+    <div>Block C</div>
+    <div>Block D</div>
+    <div>Block E</div>
+    <div>Block F</div>
+</body>
+</html>
