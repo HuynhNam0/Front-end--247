@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    a:hover {
+      color: white;
+      background-color: blue;
+    }
+    a:active {
+      background-color: rgb(103, 103, 192);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    .vertical li {
+      width: 200px;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .vertical li > ul {
+      position: absolute;
+      left: 100%;
+      top: 0;
+    }
+    a {
+      color: blue;
+      display: block;
+      width: 100%;
+      border: 2px solid;
+      /* margin: 10px; */
+      padding: 10px;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+
+    .vertical li > ul {
+      display: none;
+    }
+    .vertical li:hover > ul {
+      display: block;
+    }
+    /* end */
+    .horizontal li {
+      width: 200px;
+    }
+    .horizontal li > ul {
+      display: none;
+    }
+    .horizontal ul li {
+      float: left;
+    }
+    .horizontal li:hover > ul {
+      display: block;
+    }
+  </style>
+  <body>
+    <h1>Vertical menu</h1>
+    <div class="vertical">
+      <ul>
+        <li>
+          <a href="">item1</a>
+          <ul>
+            <li><a href="">child item1</a></li>
+            <li><a href="">child item2</a></li>
+            <li><a href="">child item3</a></li>
+            <li><a href="">child item4</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">item2</a>
+          <ul>
+            <li><a href="">child item1</a></li>
+            <li><a href="">child item2</a></li>
+            <li><a href="">child item3</a></li>
+            <li><a href="">child item4</a></li>
+          </ul>
+        </li>
+        <li><a href="">item3</a></li>
+        <li><a href="">item4</a></li>
+      </ul>
+    </div>
+
+    <h1>navigation menu</h1>
+    <div class="horizontal">
+      <ul>
+        <li>
+          <a href="">item1</a>
+          <ul>
+            <li><a href="">child item1</a></li>
+            <li><a href="">child item2</a></li>
+            <li><a href="">child item3</a></li>
+            <li><a href="">child item4</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">item2</a>
+          <ul>
+            <li><a href="">child item1</a></li>
+            <li><a href="">child item2</a></li>
+            <li><a href="">child item3</a></li>
+            <li><a href="">child item4</a></li>
+          </ul>
+        </li>
+        <li><a href="">item3</a></li>
+        <li><a href="">item4</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
