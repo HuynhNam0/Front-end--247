@@ -1,0 +1,42 @@
+.Leading-healthcare-providers{
+    height: 477px;
+    width: 100%;
+    margin-top: 210px;
+    position: relative;
+}
+.Leading-healthcare-providers_img{
+    width: 650px;
+    height: 477px;
+    position: absolute;
+    left: -50px;
+}
+
+.Leading-healthcare-providers_text{
+    width: 486px;
+    height: 388px;
+    position: absolute;
+    right: 0;
+    padding: 56px;
+}
+
+.Leading-healthcare-providers_text h1{
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.rectangle-3{
+    height: 2px;
+    width: 56px;
+    border: 2px solid black;
+    margin-top: 26px;
+    margin-bottom: 31px;
+}
+
+.Leading-healthcare-providers_text p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 37px;
+}

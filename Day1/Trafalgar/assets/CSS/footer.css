@@ -1,0 +1,89 @@
+footer {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    position: relative;
+    z-index: 1;
+    margin-top: 201px;
+    padding: 65px 180px;
+}
+
+.footer-heading_trafalga {
+    width: 391px;
+    height: 240px;
+    padding-right: 25px;
+}
+
+
+.footer-heading_trafalga_logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-heading_trafalga p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 31px;
+}
+
+.footer-heading_trafalga .p-1{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.nav-company {
+    position: absolute;
+    color: white;
+    top: 85px;
+    right: 732px;
+}
+.nav_heading{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.nav-footer li
+{
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.nav-footer p
+{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.nav-region {
+    position: absolute;
+    color: white;
+    top: 85px;
+    right: 470px;
+}
+
+
+.nav-help {
+    position: absolute;
+    color: white;
+    top: 85px;
+    right: 208px;
+}
+
+.element-footer{
+    position: absolute;
+    display: flex;
+    left: -10px;
+    bottom: 0;
+}
+
+.element-footer-top{
+    position: absolute;
+    right: -135px;
+    bottom: -250px;
+}

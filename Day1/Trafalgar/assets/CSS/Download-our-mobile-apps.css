@@ -1,0 +1,51 @@
+.Download-our-mobile-apps{
+    height: 675px;
+    width: 100%;
+}
+
+.Download-our-mobile-apps_img{
+    width: 650px;
+    height: 477px;
+    position: absolute;
+    right: 125px;
+    margin-top: 197px;
+}
+
+.Download-our-mobile-apps_text{
+    width: 420px;
+    height: 375px;
+    position: absolute;
+    left: 240px;
+    padding: 56px;
+    margin-top: 200px;
+}
+
+.Download-our-mobile-apps_text h1{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.rectangle-3{
+    height: 2px;
+    width: 56px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 31px;
+}
+
+.Download-our-mobile-apps_text p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 37px;
+    width: 351px;
+
+}
+
+.Download-our-mobile-apps .element-download-mobile-app{
+    position: absolute;
+    right: 15px;
+    opacity: 0.3;
+}
