@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end reset css */
+
+/* font */
+@font-face {
+  font-family: 'ChronicleDisplayBlack';
+  src: url('../font/Chronicle\ Display\ Black.otf');
+}
+
+@font-face {
+  font-family: 'ChronicleDisplayItalic';
+  src: url('../font/Chronicle\ Display\ Light\ Italic.otf');
+}
+
+@font-face {
+  font-family: 'ChronicleDisplayRoman';
+  src: url('../font/Chronicle\ Display\ Roman.otf');
+}
+
+@font-face {
+  font-family: 'ChronicleDisplayBold';
+  src: url('../font/Chronicle\ Display\ Semibold.otf');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../font/Gilroy-Light.otf');
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('../font/Gilroy-ExtraBold.otf');
+}
+
+html {
+  font-family: "ChronicleDisplayRoman";
+  color: white;
+}
+
+i {
+  font-family: "ChronicleDisplayItalic";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ChronicleDisplayBold";
+}
+
+/* layout */
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 200vh;
+  width: 100%;
+  position: relative;
+
+}
+
+.container {
+  max-width: 1068px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* bg */
+
+.tg {
+  position: absolute;
+  top: -400px;
+  width: 100%;
+
+  height: 1513px;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-image: url("../image/eae63c1dba994d043f4de7eaf83ad2f4.png");
+  z-index: 1;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  top: 250px;
+  height: 1422px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../image/275a251d0966ae77b7e58d007b190a88.png");
+  z-index: 2;
+}
+
+.ag {
+  position: absolute;
+  width: 100%;
+  top: 768px;
+  height: 926px;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-image: url("../image/79047419a4bc27738c3cc555a99dcd2c.png");
+  z-index: 3;
+}
+
+.ct {
+  position: absolute;
+  width: 100%;
+  top: 1000px;
+  height: 700px;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  z-index: 4;
+  background-image:
+    linear-gradient(to bottom, rgba(11, 29, 38, 0), #0B1D26)
+}
+
+
+.banner {
+  background-image: url('../image/0d05d27b864b5ad081fea6d54702a838.png');
+}
+
+/* root */
+:root {
+  --yellow: #FBD784;
+  --black: #0B1D26;
+}
