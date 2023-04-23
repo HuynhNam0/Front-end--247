@@ -9,7 +9,7 @@
 }
 
 .testimonials_customer{
-    width: 100%;
+    width: 80%;
     height: 100%;
     border: none;
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
@@ -37,8 +37,8 @@
     width: 352px;
     height: 145px;
     position: absolute;
-    left: 157px;
-    top: 205px;
+    left: 205px;
+    top: 200px;
 }
 
 
@@ -68,7 +68,7 @@
     line-height: 30px;
     color: rgba(255, 255, 255, 0.9);
     position: absolute;
-    right: 155px;
+    right: 200px;
     width: 390px;
     top: 214px;
 }
@@ -81,8 +81,8 @@
 
 .element-testimonials{
     position: absolute;
-    left: -61px;
-    top: 280px;
+    left: 100px;
+    top: 272px;
     display: flex;
 }
 
@@ -90,5 +90,5 @@
     position: absolute;
     padding-top: 42px;
     padding-bottom: 42px;
-    left: 400px;
+    left: 645px;
 }

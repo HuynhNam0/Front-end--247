@@ -1,13 +1,16 @@
 .our_services {
     height: 1300px;
     width: 100%;
+    position: relative;
 }
 
 .our_services-text {
     text-align: center;
     position: relative;
-
-    padding: 150px 122px 30px;
+    padding: 78px 122px 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .our_services-text h1 {
@@ -20,7 +23,7 @@
     width: 56px;
     border-bottom: 2px solid black;
     position: absolute;
-    left: 47.3%;
+    left: 48%;
     border-radius: 5px;
 }
 
@@ -33,6 +36,10 @@
     font-size: 18px;
     margin-top: 61px;
     font-weight: 300;
+    width: 952px;
+    display: flex;
+    height: 60px;
+    align-self: center;
 }
 
 
@@ -48,6 +55,7 @@
     display: flex;
     position: relative;
     z-index: 1;
+    justify-content: center;
 }
 
 
@@ -87,7 +95,7 @@
     width: 876.96px;
     height: 1000.38px;
     left: -20.42px;
-    top: 930px;
+    top: 100px;
     opacity: 0.6;
     transform: rotate(1.46deg);
 }
@@ -96,13 +104,13 @@
     position: absolute;
     opacity: 0.3;
     right: 180px;
-    top: 1492px;
+    top: 672px;
 }
 
 .btn-service{
     position: absolute;
     left: 700px;
-    top: 2038px;
+    top: 1220px;
 }
 
 .clear{

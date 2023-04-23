@@ -18,19 +18,21 @@
     <link rel="stylesheet" href="./assets/CSS/out-later-articel.css">
     <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.4.0-web/css/all.css">
     <link rel="stylesheet" href="./assets/CSS/footer.css">
+    <link rel="stylesheet" href="./assets/responsive/style-responesive.css">
+    <link rel="stylesheet" href="./assets/CSS/menu.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="trafalga">
+    <div class="wrapper">
         <header>
-            <div class="header-top">
+            <div class="container header-top">
                 <div class="header-top_logo">
                     <div class="header-top_lg">T
                     </div>
                     <p class="header-top_P">Trafalgar</p>
                 </div>
-                <nav class="header-top_nav">
+                <nav class="container header-top_nav">
                     <ul class="header-top_nav-menu">
                         <li><a href="" style="font-weight: bold;opacity: 1;">Home</a></li>
                         <li><a href="">Find a doctor</a></li>
@@ -39,8 +41,22 @@
                         <li><a href="">About us</a></li>
                     </ul>
                 </nav>
+
+
+                <!-- <nav class="container header-top_menu">
+                    <ul class="header-top-menu-mobile">
+                        <li class="nav-menu-mobile"><a href="#" style="font-weight: bold;opacity: 1;">Home</a>
+                            <ul>
+                                <li><a href="#">Find a doctor</a></li>
+                                <li><a href="#">Apps</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">About us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav> -->
             </div>
-            <div class="header-bottom">
+            <div class="container header-bottom">
                 <img class="header-bottom_img" src="./assets/img/header.svg" alt="">
                 <div class="header-bottom_text">
                     <h1>Virtual healthcare
@@ -56,7 +72,7 @@
         </header>
 
         <main>
-            <div class="our_services">
+            <div class="container our_services">
                 <div class="our_services-text">
                     <h1>Our services</h1>
                     <div class="rectangle-2">
@@ -68,20 +84,20 @@
                         suitable for your health
                     </p>
                 </div>
-                <div class="services">
+                <div class="container services">
                     <div class="services-1">
                         <div class="services_form" style="margin-right: 34px;">
-                            <img style="width: 91.98px;height: 90px;" src="./assets/img/search-doctor.svg" alt="">
+                            <img class="s1-img" style="width: 91.98px;height: 90px;" src="./assets/img/search-doctor.svg" alt="">
                             <h1>Search doctor</h1>
                             <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
                         </div>
                         <div class="services_form">
                             <img style="width: 61.86px;height: 85px;" src="./assets/img/pharmacy.svg" alt="">
-                            <h1 style="margin-top: 24px;">Online pharmacy</h1>
+                            <h1 style="margin-top: 24px;" class="services_form_online">Online pharmacy</h1>
                             <p>Buy your medicines with our mobile application with a simple delivery system</p>
                         </div>
                         <div class="services_form" style="margin-left: 34px;">
-                            <img style="height: 95px; width: 67.29px;
+                            <img class="s2-img" style="height: 95px; width: 67.29px;
                             " src="./assets/img/consulation.svg" alt="">
                             <h1 style="margin-top: 15px;">Consultation</h1>
                             <p>Free consultation with our trusted doctors and get the best recomendations</p>
@@ -89,19 +105,19 @@
                     </div>
                     <div class="services-1" style="margin-top: 37px;">
                         <div class="services_form" style="margin-right: 34px;">
-                            <img style="width: 67.08px; height: 92.69px;" src="./assets/img/deltail-infor.svg" alt="">
+                            <img class="s3-img" style="width: 67.08px; height: 92.69px;" src="./assets/img/deltail-infor.svg" alt="">
                             <h1>Details info</h1>
                             <p>Free consultation with our trusted doctors and get the best recomendations</p>
                         </div>
                         <div class="services_form">
-                            <img style="width: 80px;height: 71.15px;margin-top: 10px;"
+                            <img  style="width: 80px;height: 71.15px;margin-top: 10px;"
                                 src="./assets/img/Emergency-care.svg" alt="">
-                            <h1 style="margin-top: 32px;">Emergency care</h1>
+                            <h1 class="services_form_emergency" style="margin-top: 32px;">Emergency care</h1>
                             <p>You can get 24/7 urgent care for yourself or your children and your
                                 lovely family</p>
                         </div>
                         <div class="services_form" style="margin-left: 34px;">
-                            <img style="width: 69.42px; height: 95.02px;" src="./assets/img/Tracking.svg" alt="">
+                            <img class="s3-img" style="width: 69.42px; height: 95.02px;" src="./assets/img/Tracking.svg" alt="">
                             <h1>Tracking</h1>
                             <p>Track and save your medical history and health data </p>
                         </div>
@@ -113,10 +129,13 @@
                     <div class="our_services_element-services">
                         <img class="our_services_elm-servies" src="./assets/img/element-services.svg" alt="">
                     </div>
+
+                    <button class="btn-service btn btn--outline">Learn more</button>
+
                 </div>
             </div>
 
-            <div class="Leading-healthcare-providers">
+            <div class="container Leading-healthcare-providers">
                 <img class="Leading-healthcare-providers_img
                 " src="./assets/img/leading-healthcare.svg" alt="">
                 <div class="Leading-healthcare-providers_text">
@@ -131,7 +150,7 @@
             </div>
 
 
-            <div class="Download-our-mobile-apps">
+            <div class="container Download-our-mobile-apps">
                 <img class="element-download-mobile-app" src="./assets/img/element.svg" alt="">
                 <img class="Download-our-mobile-apps_img
                 " src="./assets/img/dowload-mobileapp.svg" alt="">
@@ -149,7 +168,7 @@
             </div>
 
             <div class="testimonials">
-                <div class="testimonials_customer">
+                <div class="container testimonials_customer">
                     <div class="testimonials_customer_heading">
                         <h1>What our customer are saying</h1>
                         <div class="rectangle-2 rectangle-2--outline">
@@ -180,7 +199,7 @@
                     </div>
                 </div>
                 <div class="our_later-artical_form">
-                    <div class="our_later-artical_form_frame">
+                    <div class="container our_later-artical_form_frame">
                         <div class="our_later-artical-1" style="margin-right: 36px">
                             <img src="./assets/img/img-1.svg" alt="">
                             <div class="our_later-artical_form_frame_text">
@@ -198,10 +217,9 @@
                         <div class="our_later-artical-1">
                             <img src="./assets/img/img-2.svg" alt="">
                             <div class="our_later-artical_form_frame_text">
-                                <h1>Disease detection, check
-                                    up in the laboratory</h1>
-                                <p>In this case, the role of the health laboratory is very important to do
-                                    a disease detection...</p>
+                                <h1>Herbal medicines that are 
+                                    safe for consumption</h1>
+                                <p>Herbal medicine is very widely used at this time because of its very good for your health...</p>
                                 <div style="height: 28px; width: 266px;"><a style="margin-right: 20px;text-decoration: none; color: #4089ED;font-weight: 600;
                                         font-size: 17px;" href="">Read more</a>
                                     <i class="icon-our_later fa-solid fa-right-long"></i>
@@ -213,10 +231,10 @@
                         <div class="our_later-artical-1" style="margin-left: 36px">
                             <img src="./assets/img/img-3.svg" alt="">
                             <div class="our_later-artical_form_frame_text">
-                                <h1>Disease detection, check
-                                    up in the laboratory</h1>
-                                <p>In this case, the role of the health laboratory is very important to do
-                                    a disease detection...</p>
+                                <h1>Natural care for healthy 
+                                    facial skin</h1>
+                                <p>A healthy lifestyle should start from now and also for your skin health.
+                                    There are some...</p>
                                 <div style="height: 28px; width: 266px;"><a style="margin-right: 20px;text-decoration: none; color: #4089ED;font-weight: 600;
                                             font-size: 17px;" href="">Read more</a>
                                     <i class="icon-our_later fa-solid fa-right-long"></i>
@@ -230,78 +248,78 @@
                 </div>
                 <img class="element-footer-top" src="./assets/img/element-our-later.svg" alt="">
         </main>
-        
-    </div>
-    <footer>
-        <div class="footer-heading">
-            <div class="footer-heading_trafalga">
-                <div class="footer-heading_trafalga_logo">
-                    <div class="header-top_lg header-top_P--outline" style="float:left">T
+        <footer>
+            <div class="container footer-heading">
+                <div class="footer-heading_trafalga">
+                    <div class="footer-heading_trafalga_logo">
+                        <div class="header-top_lg header-top_P--outline" style="float:left">T
+                        </div>
+                        <p class="header-top_P" style="color: white; margin-top: 30px;">Trafalgar</p>
                     </div>
-                    <p class="header-top_P" style="color: white; margin-top: 30px;">Trafalgar</p>
+                    <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online
+                        for everyone</p>
+    
+                    <p class="p-1">&copy;Trafalgar PTY LTD 2020. All rights reserved</p>
                 </div>
-                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online
-                    for everyone</p>
+                <div class="nav-company">
+                    <h1 class="nav_heading">Company</h1>
+                    <ul class="nav-footer">
+                        <li>
+                            <p>About</p>
+                        </li>
+                        <li>
+                            <p>Testimonials</p>
+                        </li>
+                        <li>
+                            <p>Find a doctor</p>
+                        </li>
+                        <li>
+                            <p>Apps</p>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="nav-region">
+                    <h1 class="nav_heading">Region</h1>
+                    <ul class="nav-footer">
+                        <li>
+                            <p>Indonesia</p>
+                        </li>
+                        <li>
+                            <p>Singapore</p>
+                        </li>
+                        <li>
+                            <p>HongKong</p>
+                        </li>
+                        <li>
+                            <p>Canada</p>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="nav-help">
+                    <h1 class="nav_heading">Help</h1>
+                    <ul class="nav-footer">
+                        <li>
+                            <p>Help center</p>
+                        </li>
+                        <li>
+                            <p>Contact support</p>
+                        </li>
+                        <li>
+                            <p>Instructions</p>
+                        </li>
+                        <li>
+                            <p>How it works</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img class="element-footer" src="./assets/img/element-our-later.svg" alt="">
+            
+        </footer>
+    </div>
 
-                <p class="p-1">&copy;Trafalgar PTY LTD 2020. All rights reserved</p>
-            </div>
-            <div class="nav-company">
-                <h1 class="nav_heading">Company</h1>
-                <ul class="nav-footer">
-                    <li>
-                        <p>About</p>
-                    </li>
-                    <li>
-                        <p>Testimonials</p>
-                    </li>
-                    <li>
-                        <p>Find a doctor</p>
-                    </li>
-                    <li>
-                        <p>Apps</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="nav-region">
-                <h1 class="nav_heading">Company</h1>
-                <ul class="nav-footer">
-                    <li>
-                        <p>About</p>
-                    </li>
-                    <li>
-                        <p>Testimonials</p>
-                    </li>
-                    <li>
-                        <p>Find a doctor</p>
-                    </li>
-                    <li>
-                        <p>Apps</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="nav-help">
-                <h1 class="nav_heading">Company</h1>
-                <ul class="nav-footer">
-                    <li>
-                        <p>About</p>
-                    </li>
-                    <li>
-                        <p>Testimonials</p>
-                    </li>
-                    <li>
-                        <p>Find a doctor</p>
-                    </li>
-                    <li>
-                        <p>Apps</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <img class="element-footer" src="./assets/img/element-our-later.svg" alt="">
-        
-    </footer>
 
 
 </body>

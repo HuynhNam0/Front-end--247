@@ -8,10 +8,17 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-.trafalga {
-    font-size: 100%;
-    background-color: white;
-    padding: 0 191px;
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    width: 1600px;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 100rem;
 }
 header{
     height: 800px;
@@ -19,10 +26,10 @@ header{
 }
 
 .header-top{
-    position: relative;
     display: flex;
     align-items: center;
-    padding: 57px 0;
+    width: 80%;
+    height: 100px;
 }
 .header-top_logo{
     display: flex;
@@ -53,8 +60,8 @@ header{
     color: #5B9BF3;
 }
 .header-top .header-top_nav {
-    position: absolute;
-    right: -21px;
+    justify-content: flex-end;
+    display: flex
 }
 .header-top_nav-menu li{
     float: left;
@@ -70,20 +77,23 @@ header{
 }
 .header-bottom{
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 .header-bottom_img {
     width: 693px;
     height: 598px;
     position: absolute;
-    right: -64px;
-    top: 24px;
+    right: 0;
 }
 
 .header-bottom_text{
     width: 420px;
-    float: left;
     margin-top: 130px;
+    position: absolute;
+    left: 0;
 }
 
 
@@ -134,4 +144,8 @@ header{
 
 .clear{
     clear: both;
+}
+
+.Download-our-mobile-apps{
+    max-width: 100%;
 }

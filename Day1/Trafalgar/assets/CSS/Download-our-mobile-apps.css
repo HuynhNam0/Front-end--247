@@ -1,23 +1,23 @@
 .Download-our-mobile-apps{
     height: 675px;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }
 
 .Download-our-mobile-apps_img{
     width: 650px;
     height: 477px;
-    position: absolute;
-    right: 125px;
     margin-top: 197px;
+    margin-right: 40px;
 }
 
 .Download-our-mobile-apps_text{
-    width: 420px;
+    width: 223px;
     height: 375px;
-    position: absolute;
-    left: 240px;
-    padding: 56px;
     margin-top: 200px;
+    margin-left: 110px;
 }
 
 .Download-our-mobile-apps_text h1{

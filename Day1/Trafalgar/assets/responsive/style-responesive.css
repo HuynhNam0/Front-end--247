@@ -1,0 +1,498 @@
+.header {
+    max-width: 100%;
+}
+
+@media screen and (max-width:1280px) {
+
+    /* header */
+    .header-top {
+        width: 90%;
+        height: 100px;
+    }
+
+    .header-top_nav-menu li {
+        margin-left: 35px;
+    }
+
+    .header-bottom {
+        width: 90%;
+    }
+
+    .header-bottom_img {
+        position: absolute;
+        right: -20px;
+        width: 650px;
+        height: 530px;
+    }
+
+    .btn-service {
+        position: absolute;
+        left: 510px;
+        top: 1170px;
+    }
+
+    /* our_services_elm-servies */
+    .our_services {
+        width: 90%;
+    }
+
+    .our_services-text {
+        padding: 0 100px 30px;
+    }
+
+    .our_services_element-bg {
+        position: absolute;
+        left: -156.42px;
+        top: 26px;
+    }
+
+    .our_services_elm-servies {
+        position: absolute;
+        right: -10px;
+        top: 592px;
+    }
+
+    /* Leading-healthcare-providers */
+    .Leading-healthcare-providers {
+        margin-top: 120px;
+    }
+
+    .Leading-healthcare-providers_text {
+        margin-right: 0px;
+    }
+
+    /* Download-our-mobile-apps */
+    .Download-our-mobile-apps {
+        justify-content: space-between;
+    }
+
+    /* testimonials_customer */
+    .testimonials_customer_text {
+        right: 88px;
+    }
+
+    .testimonials_customer_infor {
+        left: 102px;
+    }
+
+    .element-testimonials {
+        left: 70px;
+        top: 300px;
+    }
+
+    .arrow_nav {
+        left: 470px;
+    }
+
+    /* check out laster article */
+    .bg-elemen-our-late {
+        height: 700.4px;
+        top: 15px;
+        left: 877px;
+    }
+
+    .element-our-late {
+        left: 26px;
+    }
+
+    .btn-out-later {
+        left: 520px;
+    }
+
+    /* footer */
+    footer {
+        padding: 65px 0px;
+    }
+
+    .nav-company {
+        right: 630px;
+    }
+
+    .nav-region {
+        right: 370px;
+    }
+
+    .nav-help {
+        right: 110px;
+    }
+
+}
+
+
+
+@media screen and (max-width:1024px) {
+
+    /* header */
+    header {
+        height: 675px;
+    }
+
+    .header-top {
+        width: 95%;
+        height: 100px;
+    }
+
+    .header-bottom_text {
+        width: 390px;
+        margin-top: 90px;
+        position: absolute;
+        left: -25px;
+    }
+
+    .header-bottom_img {
+        right: -65px;
+        width: 600px;
+        height: 450px;
+    }
+
+    .header-bottom_text h1 {
+        font-size: 41px;
+    }
+
+    .header-bottom_text p {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 12px 30px;
+    }
+
+    .header-bottom_element {
+        top: -113px;
+        left: -92px;
+    }
+
+    /* our_services */
+    .our_services-p {
+        font-size: 16px;
+    }
+
+    .services {
+        padding: 0;
+    }
+
+    .btn-service {
+        left: 395px;
+    }
+
+    /* Leading-healthcare-providers */
+    .Leading-healthcare-providers {
+        margin-top: 70px;
+    }
+
+    .Leading-healthcare-providers_img {
+        width: 560px;
+        height: 420px;
+    }
+
+    .Leading-healthcare-providers_text p {
+        font-size: 16px;
+    }
+
+    .Leading-healthcare-providers_text {
+        padding-left: 70px;
+    }
+
+    /* Download-our-mobile */
+    .Download-our-mobile-apps_img {
+        width: 560px;
+        height: 420px;
+        margin-top: 125px;
+        margin-right: 0;
+    }
+
+    .Download-our-mobile-apps_text {
+        width: 223px;
+        height: 375px;
+        margin-top: 150px;
+        margin-left: 60px;
+    }
+
+    /* testimonials_customer */
+    .testimonials_customer {
+        width: 90%;
+    }
+
+    .testimonials_customer_text {
+        font-size: 16px;
+        right: 105px;
+        width: 324px;
+    }
+
+    .testimonials_customer_infor {
+        left: 70px;
+    }
+
+    .arrow_nav {
+        left: 340px;
+    }
+
+    /* our_later-artical */
+    .our_later-artical-1 img {
+        width: 270px;
+        height: 185px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .our_later-artical-1 {
+        width: 270px;
+        height: 475px;
+    }
+
+    .our_services_elm-servies {
+        right: -20px;
+        top: 591px;
+    }
+
+    .our_later-artical-1 p {
+        font-size: 15px;
+
+    }
+
+    .our_later-artical_form_frame_text {
+        padding: 21px 20px 0px 30px;
+    }
+
+    .bg-elemen-our-late {
+        height: 638.4px;
+        top: 24px;
+        left: 653px;
+    }
+
+    .element-our-late {
+        top: 110px;
+    }
+
+    .btn-out-later {
+        left: 420px;
+    }
+
+    /* footet */
+
+    .footer-heading_trafalga {
+        width: 337px;
+        height: 240px;
+        padding-right: 25px;
+    }
+
+    .nav-company {
+        right: 420px;
+        font-size: 16px;
+    }
+
+    .nav-region {
+        right: 255px;
+        font-size: 16px;
+    }
+
+    .nav-help {
+        right: 64px;
+    }
+
+    .element-footer {
+        left: -16px;
+        bottom: -18px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    header {
+        height: 870px;
+    }
+    .header-top_nav-menu {
+        display: none;
+    }
+    .header-bottom_element {
+        display: none;
+    }
+
+    .header-top_logo {
+        position: absolute;
+        left: 40%;
+    }
+
+    .header-bottom_text {
+        width: 550px;
+        position: absolute;
+        left: 80px;
+        text-align: center;
+    }
+    .header-bottom_img {
+        top: 220px;
+        right: 100px;
+        width: 500px;
+        height: 500px;
+    }
+
+   .header-bottom_text .btn {
+        display: none;
+        
+    }
+    .our_services{
+        margin-top: 100px;
+    }
+
+    .our_services-p {
+        font-size: 18px;
+        margin-top: 61px;
+        font-weight: 300;
+        width: 550px;
+        display: flex;
+        height: 60px;
+        align-self: center;
+    }
+    .rectangle-2 {
+        width: 80px;
+        left: 46%;
+    }
+    .services_form {
+        height: 320px;
+        padding: 25px 15px;
+    }
+    .s1-img{
+        height: 80px !important;
+        width: 80px !important;
+    }
+    .s2-img{
+        height: 80px !important;
+    }
+    .s3-img{
+        height: 80px !important;
+    }
+
+    .services_form h1 {
+        font-size: 23px;
+    }
+    .services_form_online{
+        margin-top: 14px !important;
+    }
+    .services_form_emergency{
+        margin-top: 20px !important;
+    }
+    .btn-service {
+        left: 278px !important;
+        top: 1120px;
+    }
+
+    .Leading-healthcare-providers {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+}
+
+    .Leading-healthcare-providers_text {
+    width: 550px;
+    padding-left: 0;
+}
+        .rectangle-3{
+            display: none;
+        }
+
+        .Leading-healthcare-providers_text .btn{
+            display: none;
+        }
+    .Leading-healthcare-providers_text h1 {
+        margin-bottom: 20px;
+    }
+    .Leading-healthcare-providers_img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .Download-our-mobile-apps {
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .Download-our-mobile-apps_text {
+        width: 550px;
+        margin-top: 100px;
+        margin-left: 115px;
+    }
+    .Download-our-mobile-apps_text p{
+        width: 550px;
+        margin-top: 20px;
+    }
+    .Download-our-mobile-apps_text .btn{
+        display: none;
+    }
+
+    .Download-our-mobile-apps_img {
+        width: 560px;
+        height: 420px;
+        margin-top: 0px;
+        margin-left: 92px;
+    }
+    .Download-our-mobile-apps .element-download-mobile-app {
+        right: 0;
+        top: 420%;
+    }
+    .testimonials_customer_infor{
+        left: 14px;
+    }
+    .testimonials_customer_infor_img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .testimonials_customer_infor h3 {
+        padding-top: 14px;
+        font-size: 20px;
+    }
+    .testimonials_customer_text {
+        right: 17px !important;
+        width: 270px;
+        top: 199px;
+    }
+    .arrow_nav {
+        position: absolute;
+        left: 200px !important;
+    }
+    .out-later-articel {
+        margin-top: 135px;
+    }
+    .our_later-artical-1 {
+        width: 210px;
+        height: 500px;
+    }
+    .our_later-artical-1 img {
+        width: 210px;
+        height: 145px;
+    }
+
+    .our_later-artical-1 h1 {
+        font-size: 19px;
+    }
+    .btn-out-later {
+        left: 290px;
+    }
+    
+    .footer-heading_trafalga {
+        position: absolute;
+        left: 20px;
+    }
+
+
+    .nav-help {
+        right: 14px;
+        border-left: 2px solid white;
+        padding-left: 15px;
+    }
+    .nav-region {
+        right: 170px;
+        font-size: 16px;
+    }
+    .nav-company {
+        right: 290px;
+        font-size: 16px;
+        border-right: 2px solid white;
+        padding-right: 15px;
+    }
+    .nav-footer p {
+        font-size: 16px;
+    }
+}

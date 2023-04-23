@@ -1,22 +1,22 @@
 .Leading-healthcare-providers{
+    display: flex;
     height: 477px;
     width: 100%;
     margin-top: 210px;
-    position: relative;
+    justify-content: space-around;
+    flex-direction: row;
+
 }
 .Leading-healthcare-providers_img{
     width: 650px;
     height: 477px;
-    position: absolute;
-    left: -50px;
+
 }
 
 .Leading-healthcare-providers_text{
-    width: 486px;
+    width: 415px;
     height: 388px;
-    position: absolute;
-    right: 0;
-    padding: 56px;
+    margin-right: 170px;
 }
 
 .Leading-healthcare-providers_text h1{

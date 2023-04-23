@@ -1,0 +1,54 @@
+.header-top_menu{
+    justify-content: flex-end;
+    display: flex;
+    text-align: center;
+    display: block;
+    width: 100px;
+    position: relative;
+}
+
+.header-top-menu-mobile li{
+    flex-direction: column;
+    height: 30px;
+    border: 1px solid beige;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+.header-top-menu-mobile li:hover ul{
+    background-color: #ccc;
+    color: red;
+    display: block;
+}
+
+.header-top-menu-mobile li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu-mobile {
+    padding-top: 5px;
+}
+
+.nav-menu-mobile ul{
+    display: none;
+    position: absolute;
+    top: 30px;
+}
+
+.nav-menu-mobile ul li{
+    padding-top: 5px;
+    display: block;
+}
+
+.nav-menu-mobile ul li a{
+    color: black;
+}
+
+.header-top-menu-mobile > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
