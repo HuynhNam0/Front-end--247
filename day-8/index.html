@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 250px;
+        transition: 1s;
+      }
+      .box {
+        width: fit-content;
+        position: relative;
+        margin: 40px auto;
+        overflow: hidden;
+      }
+      .text {
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        color: white;
+        opacity: 0;
+        transition: 1s;
+      }
+      .text:hover {
+        opacity: 0.6;
+      }
+      .text:hover ~ img {
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="text">Consectetur adipisicing elit sed doe</div>
+      <img src="https://preview.colorlib.com/theme/akame/img/bg-img/5.jpg.webp" alt="" />
+    </div>
+  </body>
+</html>
