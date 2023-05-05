@@ -1,0 +1,91 @@
+.akame-service-area{
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+    padding-bottom: 0;
+    display: block;
+}
+
+.service-heading{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    text-align: center;
+    display: block;
+}
+.service-heading h2 {
+    font-size: 42px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: block;
+    line-height: 1.2;
+    color: #252525;
+    font-family: "Playfair Display", serif;
+}
+
+
+.service-heading p {
+    line-height: 1.7;
+    color: #6e6e6e;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.service-content{
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.single-service-area{
+    position: relative;
+    z-index: 1;
+    padding: 40px 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    margin-bottom: 80px
+}
+
+.single-service-area img {
+    display: inline-block;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+.single-service-area h5 {
+    color: #252525;
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
+.single-service-area p {
+    margin-bottom: 0;
+    line-height: 1.7;
+    color: #6e6e6e;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    
+}
+
+
+.single-service-area:hover{
+    border-color: none;
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+}
+
+.single-service-area:hover > h5{
+    color: #bca858;
+}

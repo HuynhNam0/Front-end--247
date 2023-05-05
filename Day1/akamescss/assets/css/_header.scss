@@ -1,0 +1,182 @@
+
+.header-area {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    transition-duration: 500ms;
+}
+
+.header-area-top {
+    background-color: #252525;
+    max-width: 100%;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.header-top {
+    align-items: center !important;
+}
+
+.header-top-content-left {
+    flex: 0 0 42%;
+    padding: 0 15px;
+    max-width: 42%;
+}
+
+.header-top-content-left p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400px;
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+
+.header-top-content-right {
+    flex: 0 0 58%;
+    padding: 0 15px;
+    max-width: 58%;
+    text-align: right;
+}
+
+
+.header-top-content-right p {
+    font-size: 16px;
+    color: white;
+    font-weight: 400px;
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+.classy-nav-container {
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    z-index: 100;
+    background-color: #ffffff;
+
+}
+
+.header-area-main {
+    height: 100px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 100;;
+}
+
+.header-area-main .classy-navbar {
+    height: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classy-navbar .nav-brand {
+    font-size: 26px;
+    font-weight: 500;
+    color: #565656;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.classy-navbar-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.classy-navbar-menu .nav {
+    display: flex;
+}
+
+.classy-navbar-menu .nav li {
+    display: inline-block;
+    clear: both;
+    position: relative;
+    list-style: none;
+
+}
+
+.classy-navbar-menu .nav li a {
+    padding: 0 16px;
+    display: block;
+    height: 35px;
+    font-size: 14px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #252525;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.classy-navbar-menu .nav li a:hover
+{
+    color:#bca858 ;
+}
+
+.classy-navbar-menu .nav .active a {
+    border-bottom: 2px solid #bca858;
+
+    width: 85%;
+    padding: 0px 6.5px;
+    padding-right: 15px;
+}
+
+.classy-navbar-menu .nav li .dropdown{
+    width: 210px;
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    border-radius: 6px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    position: fixed;
+    background-color: #ffffff;
+    text-transform: capitalize;
+}
+.classy-navbar-menu .nav li:hover > .dropdown{
+    display: flex;
+}
+
+
+.classy-navbar-menu .nav li .dropdown .has-down{
+    position: relative;
+}
+.classy-navbar-menu .nav li .dropdown li a{
+    border-bottom: 1px solid rgba(242, 244, 248, 0.7);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.classy-navbar-menu .nav li .dropdown .has-down .dropdown{
+    position: absolute;
+    top: -30px;
+    left: 170px;
+    z-index: 200;
+    background-color: #ffffff;
+}
+.classy-navbar-menu .cart-icon{
+    margin-left: 46px;
+}
+
+.book-now{
+    margin-left: 24px;
+}
+
+.classy-navbar-menu .cart-icon:hover
+{
+    color:#bca858 ;
+    cursor: pointer;
+}
+
+.classy-navbar-menu .akame-btn:hover
+{
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    background-color:#bca858 ;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+

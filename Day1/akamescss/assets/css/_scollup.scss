@@ -1,0 +1,25 @@
+#scollup {
+    position: fixed;
+    right: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    background-color: #bca858;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;;
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    z-index: 10000;
+    display: block;
+    transition: all 2s ease;
+}
+
+#scollup:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.2);
+    scroll-behavior: smooth;
+    scroll-margin-top: 100vh;
+}

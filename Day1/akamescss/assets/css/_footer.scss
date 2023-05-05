@@ -1,0 +1,108 @@
+.footer-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+.footer-widget{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 80px;
+}
+
+.footer-logo{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-widget p{
+    @extend %p;
+    padding-right: 30px;
+}
+.copywrite-text {
+    position: relative;
+    z-index: 1;
+}
+.copywrite-text p {
+    @extend %p;
+    padding-right: 40px;
+}
+
+.copywrite-text p a{
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+.copywrite-text p a:hover{
+    color: #bca858;
+    cursor: pointer;
+}
+
+.footer-time-widget{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 80px;
+}
+.widget-title{
+    font-size: 24px;
+    color: #252525;
+    margin-bottom: 30px;
+    display: block;
+    text-transform: capitalize;
+}
+.footer-time-widget .open-time p {
+    margin-bottom: 8px;
+    @extend %p;
+}
+.footer-time-widget .open-time p:last-child {
+    margin-bottom: 0;
+    @extend %p;
+}
+
+.social-info{
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.footer-time-widget .social-info a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer-time-widget .social-info a.facebook {
+    background-color: #4b62b3;
+}
+.footer-time-widget .social-info a.twitter {
+    background-color: #03baeb;
+}
+.footer-time-widget .social-info a.google-pl {
+    background-color: #cb242e;
+}
+.footer-time-widget .social-info a.instagram {
+    background-color: #057ad7;
+}
+
+.footer-time-widget .social-info a:hover{
+    color:white;
+    cursor: pointer;
+    background-color: #bca858;
+}
+
+
+
+.footer-time-widget .contact-address p {
+    margin-bottom: 8px;
+    @extend %p;
+}
+.footer-time-widget .contact-address p:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,117 @@
+
+.akame-about-area {
+    padding-top: 80px !important;
+    padding-bottom: 0;
+    display: block;
+    margin-bottom: 80px !important;
+}
+
+.akame-abouts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.about-heading {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    z-index: 1;
+    margin-bottom: 50px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.about-heading h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: block;
+    line-height: 1.2;
+    color: #252525;
+    font-weight: 400;
+    width: 353px;
+    position: absolute;
+    bottom:44%;
+    left: 5px;
+}
+
+
+.about-heading p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #6e6e6e;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 353px;
+    position: absolute;
+    bottom: 34%;
+    left: 5px;
+}
+
+.about-heading span {
+    position: absolute;
+    top: 50%;
+    font-size: 100px;
+    color: #bca858;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    line-height: 1;
+    transform: translateY(-50%);
+    z-index: -1;
+    opacity: 0.1;
+    left: 0;
+    font-weight: 700;
+}
+
+
+.about-us-img {
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    position: relative;
+    height: 407px;
+    
+}
+
+.about-us-img img {
+    width: 350px;
+    height: auto;
+    border-style: none;
+}
+
+.about-us-content {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 80px;
+    padding-left: 2.5rem!important;
+}
+
+.about-us-content h3 {
+    display: block;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    color: #252525;
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+.about-us-content p{
+    line-height: 1.7;
+    color: #6e6e6e;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
