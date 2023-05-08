@@ -8,13 +8,15 @@
     <style>
       img {
         width: 250px;
-        transition: 1s;
+        height: 250px;
+        /* transition: 1s; */
       }
       .box {
         width: fit-content;
         position: relative;
         margin: 40px auto;
-        overflow: hidden;
+        overflow: scroll;
+        height: 100px;
       }
       .text {
         cursor: pointer;
@@ -35,9 +37,9 @@
       .text:hover {
         opacity: 0.6;
       }
-      .text:hover ~ img {
+      /* .text:hover ~ img {
         transform: scale(1.2);
-      }
+      } */
     </style>
   </head>
   <body>

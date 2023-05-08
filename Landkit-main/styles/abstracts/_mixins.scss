@@ -1,0 +1,20 @@
+@use "variables" as *;
+@mixin LayoutFlex($flex-direction:row,$justify-content:center,$align-items:center,$wrap:wrap) {
+    display: flex !important;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    justify-content:$justify-content;
+    flex-wrap: $wrap;
+}
+@mixin Responsive($breakpoint){
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+@mixin box($width,$height: $width) {
+  width: $width;
+  height: $height;
+}

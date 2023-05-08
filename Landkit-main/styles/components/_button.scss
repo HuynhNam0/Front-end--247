@@ -1,0 +1,73 @@
+@use "variables"as *;
+
+.btn {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1.4rem 2rem;
+  border: none;
+  border-radius: 0.7rem;
+
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 1rem 2.5rem rgba(22, 28, 45, .1), 0 .5rem 1rem -.75rem rgba(22, 28, 45, .1) !important;
+    transform: translate3d(0, -3px, 0);
+  }
+
+  &__blue {
+    color: $white;
+    background-color: $primary-blue;
+
+  }
+  &__white-1 {
+    color: $primary-blue;
+    background-color: $white;
+    &:hover{
+      box-shadow:none;
+    transform: none;
+    }
+  }
+  &__white {
+    color: $primary-blue;
+    background-color: rgba($primary-blue, $alpha: 0.15);
+  }
+  &__green{
+    color: $white;
+    background-color: $primary-green;
+  }
+}
+.btn__pricing{
+  input{
+    display: none;
+  }
+  
+ label{
+  display: block;
+  width: 4rem;
+  height: 2.2rem;
+  background-color: #D9E2EF;
+
+  border-radius: 1rem;
+  position: relative;
+ 
+  &::before{
+    position: absolute;
+    content: "";
+    width: 1.6rem;
+    height: 1.6rem;
+    display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0.3rem;
+    transition: all 0.3s;
+  }
+
+ }
+ input:checked ~ label{
+  background-color: $primary-blue;
+ }
+ input:checked ~ label::before{
+  transform: translateX(1.9rem);
+ }
+}

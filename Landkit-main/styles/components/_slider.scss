@@ -1,0 +1,158 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.testimonials {
+  &__inner{
+    position: relative;
+    z-index: 10;
+  }
+  &__slider {
+
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    @include LayoutFlex(row, center, center, nowrap);
+    transform: translateY(7rem);
+    border-radius: 0.7rem;
+    box-shadow: 25px 60px 125px -25px #5066901a, 16px 40px 75px -40px #00000033;
+ 
+
+    &--img {
+      width: 50%;
+      height: 38rem;
+      background-position: center;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      overflow: hidden;
+      position: relative;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &--shape {
+      height: 100%;
+      top: 0;
+      right: -3rem;
+      position: absolute;
+      transform: scale(2);
+
+      svg {
+        height: 100%;
+        color: $white;
+      }
+    }
+
+    &--card {
+      width: 50%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    &--list {
+    
+      width: 400%;
+      margin-left: -100%;
+      @include LayoutFlex(row, center, center, nowrap);
+      transition: all 0.5s;
+
+    }
+
+    &--item {
+      width: 100%;
+      @include LayoutFlex(column, center, center, nowrap);
+      
+    }
+
+    &--logo {
+      padding-bottom: 6rem;
+
+      img {
+        display: block;
+        width: 100%;
+        max-width: 16rem;
+      }
+    }
+
+    &--content {
+      font-size: 1.8rem;
+      margin-bottom: 4.8rem;
+      max-width: 40rem;
+      color: $heading-black1;
+    }
+
+    &--author {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: $text-blue2;
+    }
+  }
+
+  &__prev,
+  &__next {
+    position: absolute;
+    z-index: 10;
+    top: calc(50% - 3rem);
+    @include LayoutFlex(row, center, center, nowrap);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: $primary-blue;
+    cursor: pointer;
+
+    i {
+      font-size: 1.6rem;
+      font-weight: 300;
+      color: $white;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+
+  &__prev {
+    left: -3rem;
+    &:active~div .slider__img {
+      animation: show 0.5s ease;
+    }
+  }
+
+  &__next {
+    right: -3rem;
+    &:active~div .slider__img {
+      animation: show 0.5s linear;
+    }
+  }
+ 
+}
+@include Responsive(sm){
+.testimonials {
+  &__slider {
+    flex-direction: column;
+    &--shape{
+      display: none;
+    }
+    &--img {
+      width: 100%;
+      height: 50%;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 1rem;
+    }
+    &--card{
+      width: 100%;
+      height: 50%;
+      padding: 2rem 1rem;
+    }
+  }
+  &__prev,
+  &__next {
+    top: 75%;
+  }
+
+}
+}

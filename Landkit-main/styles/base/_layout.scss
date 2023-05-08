@@ -1,0 +1,141 @@
+@import "../abstracts/variables";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-family-base;
+  line-height: 1.6;
+  background-color: $bg-white;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 89%;
+  max-width: 100rem;
+
+}
+
+.text {
+
+  &-1 {
+    font-weight: 400;
+    color: $text-blue2 !important;
+    font-size: 1.6rem;
+
+  }
+
+  &-2 {
+    font-weight: 400;
+   
+    color: $text-blue2 !important;
+    font-size: 1.8rem;
+  }
+
+  &-3 {
+    font-weight: 300;
+    color: $text-blue2 !important;
+    font-size: 2rem;
+
+  }
+}
+
+.heading {
+  &-4{
+    font-weight: 400;
+    color: $heading-black1;
+    font-size: 1.8rem; 
+  }
+  &-3 {
+    font-weight: 400;
+    color: $heading-black1;
+    font-size: 2.1rem;
+  }
+
+  &-2 {
+    font-weight: 300;
+    line-height: 4.1rem;
+    letter-spacing:-0.31px;
+    color: $heading-black1;
+    font-size: 3.1rem;
+  }
+
+  &-1 {
+    font-weight: 300;
+    letter-spacing: -0.96px;
+    color: $heading-black1;
+    font-size: 4.6rem;
+  }
+}
+.icon svg{
+  width: 5rem;
+  height: 5rem;
+}
+.fa-check {
+  color: $primary-green;
+  width: 2rem;
+  height: 2rem;
+  @include LayoutFlex(row, center, center, wrap);
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+  background-color: rgba($primary-green, $alpha: 0.2);
+  border-radius: 50%;
+
+}
+@include Responsive(md) {
+  html{
+    font-size: 55%;
+  }
+  .text {
+
+    &-1 {
+
+      font-size: 1.7rem;
+  
+    }
+  
+    &-2 {
+
+      font-size: 2rem;
+    }
+  
+    &-3 {
+
+      font-size: 1.9rem;
+  
+    }
+  }
+  
+  .heading {
+  
+    &-3 {
+    
+      font-size: 1.9rem;
+    }
+  
+    &-2 {
+  
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+  
+    &-1 {
+    
+      font-size: 3.9rem;
+    }
+  }
+}
+
+@include Responsive(sm) {}
+
+@include Responsive(xs) {}
