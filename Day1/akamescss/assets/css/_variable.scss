@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     margin: 0 -15px;
 }
-
 .akame-btn{
     position: relative;
     z-index: 1;
@@ -19,8 +18,6 @@
     padding: 0 35px;
     text-align: center;
     text-transform: uppercase;
-    color: #252525;
-    border: 1px solid #252525;
     border-radius: 60px;
     font-family: "Playfair Display", serif;   
     text-decoration: none;
@@ -57,14 +54,14 @@
 }
 
 .active-about{
-    border-color: #bca858;
-    background-color: #bca858;
-    color: #ffffff;
+    border-color: $bgr-color !important;
+    background-color: $bgr-color !important;
+    color: $white;
 }
 .about-us-content .akame-btn:hover{
-    border-color: #252525;
-    background-color: #252525;
-    color: #ffffff;
+    border-color: $gray-black !important;
+    background-color: $gray-black !important; 
+    color: $white;
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
 }
 
@@ -127,11 +124,11 @@
     max-width: 33.333333%;
 }
 
-.col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
+// .col-sm-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }
 .col-xl-5 {
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
@@ -177,7 +174,7 @@
 
 %heading-p{
     line-height: 1.7;
-    color: #6e6e6e;
+    color: $secondary;
     font-size: 20px;
     font-weight: 400;
     margin-top: 0;
@@ -185,7 +182,7 @@
 }
 %p{
     line-height: 1.7;
-    color: #6e6e6e;
+    color: $secondary;
     font-size: 18px;
     font-weight: 400;
     margin-top: 0;
@@ -201,3 +198,44 @@
     display: flex;
     justify-content: space-between;
 }
+////
+/// 
+/// 
+/// 
+/// 
+/// 
+/// color
+
+$blue: #057ad7;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+$gray: #6c757d;
+$gray-dark: #343a40;
+$primary: #007bff;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+
+// --------------------
+$dark-purple:#4b62b3;
+$info:#03baeb;
+$blue: #057ad7;
+$red: #cb242e;
+$white-bland:#e5e5e5;
+$gray-bland:#acacac;
+$color-nav:#f2f4f8;
+$white: #ffffff;
+$light: #f6f9f9;
+$dark: #343a40;
+$secondary:#6e6e6e;
+$black:#000000;
+$gray-black:#252525;
+$bgr-color:#bca858;

@@ -14,10 +14,11 @@
 
 <body>
     <div class="wrapper">
+        
         <header class="header-area">
             <div class="header-area-top">
                 <div class="container h-100">
-                    <div class="row h-100 header-top">
+                    <div class="row row-lt-1 h-100 header-top">
                         <div class="header-top-content-left">
                             <p>Welcome to hair salon!</p>
                         </div>
@@ -36,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container header-area-main">
+            <div class="container container-nav header-area-main">
                 <nav class="classy-navbar">
                     <a href="index.html" class="nav-brand">
                         <img src="./assets/img/logo.png.webp" alt="">
@@ -77,7 +78,55 @@
                             <i class="fa-solid fa-cart-shopping"></i>
                         </div>
                         <div class="book-now">
-                            <a href="#" class="akame-btn">BOOK NOW </a>
+                            <a href="#" class="akame-btn" style="    
+                            color: #252525 ;
+                            border: 1px solid #252525 ;">BOOK NOW </a>
+                        </div>
+                    </div>
+                    <div class="classy-navbar-tab display-none">
+                        <div class="navbar-table">
+                            <i style="font-size: 30px;" class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+
+                    <div class="classy-table-menu menu-on display-none">
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap">
+                                <i style="font-size: 30px;" class="fa-solid fa-xmark"></i>
+                            </div>
+                            </div>
+                        <div class="class-table-nav">
+                            <ul class="nav-tab">
+                                <li class="active-table"><a href="./index.html">Home</a></li>
+                                <li class="dropdown-item"><a href="#">Pages
+                                    <i class="icons-1 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown">
+                                    <li style="margin-top: 15px !important;" class="bgr-tabnav"><a href="#">- Home</a></li>
+                                    <li class="bgr-tabnav"><a href="#">- Pages</a></li>
+                                    <li class="bgr-tabnav"><a href="#">- Portfolio</a></li>
+                                    <li class="bgr-tabnav"><a href="#">- Services</a></li>
+                                    <li class="bgr-tabnav"><a href="#">- About Us</a></li>
+                                    <li class="bgr-tabnav"><a href="#">- Blog</a></li>
+                                    <li class="bgr-tabnav"><a href="#">- Contact</a></li>
+                                    <li class="has-down"><a href="#">- dropdown
+                                            <i style="margin-left: 52px;" class="icons-1 fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown">
+                                            <li style="margin-top: 15px !important;" class="bgr-tabnav"><a href="#">- Dropdown Item</a></li>
+                                            <li class="bgr-tabnav"><a href="#">- Dropdown Item</a></li>
+                                            <li class="bgr-tabnav"><a href="#">- Dropdown Item</a></li>
+                                            <li class="bgr-tabnav"><a href="#">- Dropdown Item</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                                <li><a href=""></a>Portfolio</li>
+                                <li><a href=""></a>Services</li>
+                                <li><a href=""></a>About Us</li>
+                                <li><a href=""></a>Blog</li>
+                                <li><a href=""></a>Contact</li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -89,7 +138,7 @@
                     class="single-welcome-slide bg-img">
                     <div class="welcome-content h-100">
                         <div class="container h-100">
-                            <div style="align-items: center !important;" class="row h-100">
+                            <div style="align-items: center !important;" class="row row-lt-1 h-100">
                                 <div class="welcome-text">
                                     <h2>
                                         We Care About
@@ -112,7 +161,7 @@
 
         </div>
         <div class="container akame-about-area">
-            <div class="row align-item-center" style="text-align: left
+            <div class="row align-item-center row-lt-1" style="text-align: left
             ;">
                 <div class="about">
                     <div class="about-heading">
@@ -120,12 +169,12 @@
                         <p>The House of Hair Salon & Spa</p>
                         <span>About Us</span>
                     </div>
-                    <div class="col">
+                    <div class="col col-md-6">
                         <div class="about-us-img">
                             <img src="./assets/img/15.jpg.webp" alt="">
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-none">
                         <div class="about-us-content">
                             <h3>Beautiful Hair Comes From A Legendary.</h3>
                             <p>“Working in a salon, you look at trends all day long. You’re looking at color all the
@@ -135,6 +184,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 display-none">
+                    <div class="about-us-content">
+                        <h3>Beautiful Hair Comes From A Legendary.</h3>
+                        <p>“Working in a salon, you look at trends all day long. You’re looking at color all the
+                            time,what new products are coming out. You’re a part of the fashion industry,especially
+                            if you’re working in a higher-end salon.”</p>
+                        <a href="#" class="akame-btn active-about mt-30">Read More</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -142,7 +200,7 @@
         </div>
         <div class="akame-service-area">
             <div class="container">
-                <div class="row">
+                <div class="row row-lt-1">
                     <div class="col-12">
                         <div class="service-heading">
                             <h2>Our Services</h2>
@@ -151,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row row-lt-1">
                     <div class="service-content">
                         <div class="single-service-area">
                             <img src="./assets/img/s1.png.webp" alt="">
@@ -193,7 +251,7 @@
         </div>
         <div class="why-choose-us-area">
             <div class="container">
-                <div class="row" style="align-items: center;">
+                <div class="row row-lt-1" style="align-items: center;">
                     <div class="col-12 col-lg-6">
                         <div class="choose-us-thumbnail">
                             <div class="choose-us-img bg-img"
@@ -231,7 +289,7 @@
         </div>
         <div class="our-work-area">
             <div class="container">
-                <div class="row">
+                <div class="row row-lt-1" style="margin-left: 10px">
                     <div class="col-12">
                         <div class="our-work-heading">
                             <h2>Our Work
@@ -240,7 +298,7 @@
                             </p>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row row-lt-1">
                                 <div class="col-12">
                                     <div class="our-work-menu">
                                         <ul>
@@ -254,8 +312,8 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div style="margin-left: 0;" class="row akame-portfolio-area">
+                        <div class="row row-lt-1">
+                        <div style="margin-left: 30px;" class="akame-portfolio-area">
                             <div class="box-1 view">
                                 <img src="./assets/img/5.jpg.webp" alt="">
                                 <div class="portfolio-content">
@@ -317,10 +375,13 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
                         <div class="row">
                             <div class="col-12">
                                 <div class="view-all-btn">
-                                    <div class="akame-btn">View All Work</div>
+                                    <div class="akame-btn akame-btn-ipad" style="    
+                                    color: #252525;
+                                    border: 1px solid #252525;">View All Work</div>
                                 </div>
                             </div>
                         </div>
@@ -333,7 +394,7 @@
             <div class="side-thumbnail"
                 style="background-image: url(https://preview.colorlib.com/theme/akame/img/bg-img/14.png.webp);"></div>
             <div class="container">
-                <div class="row justify-content-end">
+                <div class="row row-lt-1 justify-content-end">
                     <div class="col-12 col-lg-6">
                         <div class="expert-heading">
                             <h2>Our Experts</h2>
@@ -350,8 +411,8 @@
                 </div>
             </div>
             <div class="container-infor">
-                <div class="row">
-                    <div class="col-lg-3" style="padding-right: 15px;padding-left: 15px;">
+                <div class="row row-lt-img">
+                    <div class="col-lg-3 col-sm-6" style="padding-right: 15px;padding-left: 15px;">
                         <div class="team-member">
                             <div class="team-member-img">
                                 <img src="./assets/img/10.jpg.webp" alt="">
@@ -371,7 +432,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3" style="padding-right: 15px;padding-left: 15px;">
+                    <div class="col-lg-3 col-sm-6" style="padding-right: 15px;padding-left: 15px;">
                         <div class="team-member">
                             <div class="team-member-img">
                                 <img src="./assets/img/11.jpg.webp" alt="">
@@ -391,7 +452,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3" style="padding-right: 15px;padding-left: 15px;">
+                    <div class="col-lg-3 col-sm-6" style="padding-right: 15px;padding-left: 15px;">
                         <div class="team-member">
                             <div class="team-member-img">
                                 <img src="./assets/img/12.jpg.webp" alt="">
@@ -411,7 +472,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3" style="padding-right: 15px;padding-left: 15px;">
+                    <div class="col-lg-3 col-sm-6" style="padding-right: 15px;padding-left: 15px;">
                         <div class="team-member">
                             <div class="team-member-img">
                                 <img src="./assets/img/13.jpg.webp" alt="">
@@ -434,12 +495,12 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="margin-top-230" style="border-top: 1px solid #dee2e6;"></div>
+        <div class="container mg-top-100">
+            <div  style="border-top: 1px solid #dee2e6;margin-top: 300px;"></div>
         </div>
         <div class="blog-area">
             <div class="container">
-                <div class="row">
+                <div class="row row-lt-1">
                     <div class="col-12">
                         <div class="blog-heading">
                             <h2>Our Work
@@ -449,8 +510,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
+                <div class="row row-lt-1">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="post-area">
                             <div class="post-img">
                                 <a href="#"><img src="./assets/img/1.jpg.webp" alt=""></a>
@@ -469,7 +530,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="post-area">
                             <div class="post-img">
                                 <a href="#"><img src="./assets/img/2.jpg.webp" alt=""></a>
@@ -487,7 +548,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="post-area">
                             <div class="post-img">
                                 <a href="#"><img src="./assets/img/3.jpg.webp" alt=""></a>
@@ -512,7 +573,7 @@
         </div>
         <div class="book-area">
             <div class="container">
-                <div class="row">
+                <div class="row row-lt-1" >
                     <div class="col-12 col-xl-5">
                         <div class="book-content">
                             <h2>Make Stilo Your <br>Number One Choice</h2>
@@ -520,7 +581,9 @@
                                 incididunt ut la.</p>
                             <div class="akame-btn-group">
                                 <a href="#" class="akame-btn act mr-16">Book An Appointment</a>
-                                <a href="#" class="akame-btn act-1">Contact Us</a>
+                                <a href="#" class="akame-btn act-1" style="
+                                color: #252525;
+                                border: 1px solid #252525;">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -531,7 +594,7 @@
 
         <footer class="footer-area">
             <div class="container">
-                <div class="row justify-content-between">
+                <div class="row row-lt-1 justify-content-between j-t-content-around">
                     <div class="col-md-4">
                         <div class="footer-widget">
                             <a href="#" class="footer-logo"><img src="./assets/img/logo.png.webp" alt=""></a>
@@ -546,7 +609,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-lg-footer">
                         <div class="footer-time-widget">
                             <h4 class="widget-title">Opening times</h4>
                             <div class="open-time">
@@ -561,7 +624,7 @@
                                     </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-lg-footer">
                         <div class="footer-time-widget">
                             <h4 class="widget-title">Contact Us</h4>
                             <div class="contact-address">
@@ -574,7 +637,7 @@
                 </div>
             </div>
         </footer>
-        <a href="#top" id="scollup">
+        <a href="#" id="scollup">
             <i class="fa-solid fa-carrot"></i>
         </a>
     </div>

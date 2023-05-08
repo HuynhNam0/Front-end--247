@@ -43,7 +43,7 @@
     margin-bottom: 15px;
     font-family: "Playfair Display", serif;
     text-decoration: none;
-    color: #252525;
+    color: $gray-black;
     outline: none;
 }
 .post-area .post-content .post-meta a:last-child::before {
@@ -63,7 +63,7 @@
     position: relative;
     z-index: 1;
     font-size: 16px;
-    color: #acacac;
+    color: $gray-bland;
     display: inline-block;
     margin-right: 30px;
     text-decoration: none;
@@ -77,13 +77,11 @@
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.7;
-    color: #6e6e6e;
+    color: $secondary;
     font-size: 18px;
     font-weight: 400;
     padding-right: 36px;
 }
-
-
 .post-img img {
     max-width: 92%;
     height: auto;
@@ -91,18 +89,17 @@
     border-style: none;
     overflow: clip;
 }
-
 .post-img:hover img{
     width: 100%;
     filter: grayscale(50%);
 }
 .post-area .post-content .post-title:hover{
-    color: #bca858;
+    color: $bgr-color;
 }
 .post-area .post-content .post-meta a:hover{
-    color: #bca858;
+    color: $bgr-color;
 }
 
 .single-post-area .post-content .post-meta a:hover{
-    color: #bca858;
+    color: $bgr-color;
 }

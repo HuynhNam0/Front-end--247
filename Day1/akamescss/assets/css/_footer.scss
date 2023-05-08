@@ -31,11 +31,11 @@
 
 .copywrite-text p a{
     text-decoration: none;
-    color: #6e6e6e;
+    color: $secondary;
 }
 
 .copywrite-text p a:hover{
-    color: #bca858;
+    color: $bgr-color;
     cursor: pointer;
 }
 
@@ -46,7 +46,7 @@
 }
 .widget-title{
     font-size: 24px;
-    color: #252525;
+    color: $gray-black;
     margin-bottom: 30px;
     display: block;
     text-transform: capitalize;
@@ -79,22 +79,22 @@
 }
 
 .footer-time-widget .social-info a.facebook {
-    background-color: #4b62b3;
+    background-color: $dark-purple;
 }
 .footer-time-widget .social-info a.twitter {
-    background-color: #03baeb;
+    background-color: $info;
 }
 .footer-time-widget .social-info a.google-pl {
-    background-color: #cb242e;
+    background-color: $red;
 }
 .footer-time-widget .social-info a.instagram {
-    background-color: #057ad7;
+    background-color: $blue;
 }
 
 .footer-time-widget .social-info a:hover{
     color:white;
     cursor: pointer;
-    background-color: #bca858;
+    background-color: $bgr-color;
 }
 
 

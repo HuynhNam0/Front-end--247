@@ -10,6 +10,8 @@
 @import 'book';
 @import 'footer';
 @import 'scollup';
+@import 'responesive/responsive';
+@import 'responesive/mobile.scss';
 * {
     padding: 0;
     margin: 0;
@@ -24,6 +26,7 @@ html {
     position: relative;
     z-index: auto;
     text-align: left;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
